@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #111;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2em;
+  border-bottom: 2px solid #555;
+}
+
+.main-section {
+  padding: 20px;
+  background-color: #000;
+}
+
+.motivational-message {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+
+.task-input {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-right: 10px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #111;
+}
+
+button {
+  cursor: pointer;
+  padding: 12px;
+  margin: 2.5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  background-color: #111;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.task:hover {
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task-text {
+  flex-grow: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #777;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
