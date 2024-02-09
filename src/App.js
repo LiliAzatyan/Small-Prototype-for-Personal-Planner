@@ -9,12 +9,10 @@ const App = () => {
 
   // List of motivational messages
   const motivationalMessages = [ 
-  <i>
     "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
     "Success is not final, failure is not fatal: It is the courage to continue that counts.",
     "You are never too old to set another goal or to dream a new dream.",
     "The only limit to our realization of tomorrow will be our doubts of today."
-  </i>
   ];
 
   // Load tasks and motivational message from local storage on component mount
